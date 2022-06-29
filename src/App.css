@@ -1,38 +1,207 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,700&family=Oswald:wght@400;700&family=Pinyon+Script&display=swap');
+
+/* Background */
+
+.Background {
+ position: absolute;
+ z-index: -10;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ background-color: #b3b5bb;
+ justify-content: space-between;
+ overflow: hidden;
+}
+
+.Background--Spacer {
+ display: flex;
+ flex-wrap: wrap;
+ width: 500px;
+ gap: 0;
+}
+
+.Background--BlueGear--image {
+ width: 500px;
+ margin-left: -250px;
+ margin-right: 250px;
+ animation: infinite-spinning 10s infinite linear;
+}
+
+.Background--SmallGear--image {
+ width: 250px;
+ margin-right: 150px;
+ margin-left: -150px;
+ margin-top: -200px;
+ animation: infinite-spinning-alt 8s infinite linear;
+}
+
+.Background--MainGear--image {
+ min-width: 500px;
+ margin-left: 250px;
+ animation: infinite-spinning 10s infinite linear;
+}
+
+@keyframes infinite-spinning {
+ from {
+  transform: rotate(0deg);
+ }
+ to {
+  transform: rotate(360deg);
+ }
+}
+
+@keyframes infinite-spinning-alt {
+ from {
+  transform: rotate(360deg);
+ }
+ to {
+  transform: rotate(0deg);
+ }
+}
+
+/* Information Section*/
+.Information {
+ position: absolute;
+ display: flex;
+ margin-top: 10%;
+ width: 100%;
+ justify-content: center;
+}
+
+.Information--Name {
+ color: #007991;
+ font-family: 'Open Sans', sans-serif;
+ font-family: 500;
+ font-size: 48px;
+ margin: 0;
+}
+.Information--Job {
+ font-family: 'Oswald', sans-serif;
+ font-weight: 700;
+ color: #643173;
+ font-size: 48px;
+ margin: 0;
+}
+
+.Information--Quote {
+ font-size: 24px;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 400;
+ margin: 0;
+ max-width: 633px;
+ color: rgba(0, 0, 0, 0.5);
+}
+
+.Quote--From {
+ font-family: 'Open Sans', sans-serif;
+ font-style: italic;
+ font-weight: 700;
+}
+
+.Information--Buttons-Row {
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: 10%;
+ gap: 10px 25px;
+}
+
+.Information--Buttons-Row--Button {
+ display: flex;
+ padding-left: 25px;
+ font-family: 'Open Sans', sans-serif;
+ letter-spacing: 1.25px;
+ gap: 0 10px;
+ align-items: center;
+ border-radius: 5px;
+ width: 140px;
+ border: solid 1px #707070;
+ background-color: #ffba49;
+}
+
+.Information--Buttons-Row--Button:hover {
+ background-color: #643173;
+ color: white;
+}
+
+/* Projects Gallery */
+
+.ProjectGallery {
+ display: flex;
+ flex-wrap: wrap;
+ margin: 10% 0 20%;
+ max-width: 600px;
+ gap: 25px 50px;
+}
+
+.Card {
+ width: 250px;
+ background: none;
+ border: none;
+ border-radius: 15px;
+}
+
+.Card:hover {
+ color: white;
+ background-color: #643173;
+ box-shadow: 1px 1px 25px black;
+}
+
+.Card--Image {
+ width: 225px;
+ border-radius: 15px;
+}
+
+/* Footer */
+
+.Footer {
+ position: fixed;
+ top: 90%;
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+ background-color: #ffba49;
+}
+
+@media screen and (max-width: 750px) {
+ .Information {
+  margin: 10% 0%;
   text-align: center;
-}
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ .Information--Quote {
+  margin: 0 10%;
+  font-size: 16px;
+  color: black;
+ }
+ .Information--Job {
+  font-size: 32px;
+ }
+ .Information--Name {
+  font-size: 24px;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ .Background--BlueGear--image,
+ .Background--SmallGear--image {
+  opacity: 0.25;
+ }
+ .Information--Buttons-Row {
+  justify-content: center;
+ }
+ .ProjectGallery {
+  justify-content: center;
+ }
+ .Footer--Phone,
+ .Footer--Email,
+ .Footer--Location {
+  margin: 0;
+  font-size: 12px;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+ .Footer {
+  top: 91%;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 16px;
+ }
 }

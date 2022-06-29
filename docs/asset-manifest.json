@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e49891a0.css",
+    "main.js": "./static/js/main.cf4f86e5.js",
+    "static/js/787.1d5e114e.chunk.js": "./static/js/787.1d5e114e.chunk.js",
+    "static/media/ecommerce.png": "./static/media/ecommerce.b111e0ad5f9bc7e497db.png",
+    "static/media/web-remote.png": "./static/media/web-remote.970034a2a9dafa9c79cd.png",
+    "static/media/findaflag.png": "./static/media/findaflag.ee86713b3abc57a82a3c.png",
+    "static/media/jobSnapshot.png": "./static/media/jobSnapshot.3ecff71adf034dd378aa.png",
+    "static/media/gear1.svg": "./static/media/gear1.ff1038baecec4f6a359e8d89db091df8.svg",
+    "static/media/gear3.svg": "./static/media/gear3.6ab0711db42c2c342a8356b82cdcf2b1.svg",
+    "static/media/gear2.svg": "./static/media/gear2.ad17e0d4875c76efaa8cd75f28c392ad.svg",
+    "index.html": "./index.html",
+    "main.e49891a0.css.map": "./static/css/main.e49891a0.css.map",
+    "main.cf4f86e5.js.map": "./static/js/main.cf4f86e5.js.map",
+    "787.1d5e114e.chunk.js.map": "./static/js/787.1d5e114e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e49891a0.css",
+    "static/js/main.cf4f86e5.js"
+  ]
+}
