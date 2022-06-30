@@ -7,37 +7,59 @@ import Card from "./ProjectCard";
 
 const Projects = [
     {
-        name: 'E-Commerce Demo Page',
+        name: 'E-Commerce Page',
         img: ecommerce,
-        link: 'https://siegetank-90.github.io/eCommerceDemo/'
+        link: 'https://siegetank-90.github.io/eCommerceDemo/',
+        demo: true
+
     },
     {
         name: 'Countries Database',
         img: findaflag,
-        link: 'https://siegetank-90.github.io/findaflag/'
+        link: 'https://siegetank-90.github.io/findaflag/',
+        demo: false
     },
     {
-        name: 'Web-Remote Demo',
+        name: 'Mobile Web-Remote',
         img: webRemote,
-        link: 'https://siegetank-90.github.io/web-remote2'
+        link: 'https://siegetank-90.github.io/web-remote2',
+        demo: true
     },
     {
         name: 'Jobs Listings Search',
         img: jobSnapshot,
-        link: 'https://siegetank-90.github.io/jobFilter'
+        link: 'https://siegetank-90.github.io/jobFilter',
+        demo: false
+
     }
 ]
 
 function ProjectGallery() {
+    let ProjectsArray = [];
+    let DemoProjectArray = [];
 
-    let ProjectsArray = Projects.map(element => {
-        return <Card title={element.name} image={element.img} link={element.link} />
-    }
-    )
+    Projects.map(element => {
+        if (element.demo === false) {
+            ProjectsArray.push(<Card title={element.name} image={element.img} link={element.link} />)
+        } else {
+            DemoProjectArray.push(<Card title={element.name} image={element.img} link={element.link} />)
+        }
+
+    })
+
 
 
     return (<div className="ProjectGallery">
-        {ProjectsArray}
+        <div className="ProjectGallery--Sectional" >
+            {ProjectsArray}
+        </div>
+        <div className="ProjectGallery--Sectional">
+            <h3 className="Information--Title ">Demos</h3>
+            <hr className="breakline" />
+        </div>
+        <div className="ProjectGallery--Sectional" >
+            {DemoProjectArray}
+        </div>
     </div>)
 }
 

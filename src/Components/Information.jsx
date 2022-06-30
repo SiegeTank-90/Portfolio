@@ -40,6 +40,9 @@ function Information() {
                         </button>
                     </a>
                 </div>
+                <h2 className="Information--Title">Projects</h2>
+
+                <hr className="breakline" />
                 <ProjectGallery />
             </div>
 

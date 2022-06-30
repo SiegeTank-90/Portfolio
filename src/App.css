@@ -104,7 +104,7 @@ a {
 .Information--Buttons-Row {
  display: flex;
  flex-wrap: wrap;
- margin-top: 10%;
+ margin: 10% 0;
  gap: 10px 25px;
 }
 
@@ -126,6 +126,21 @@ a {
  color: white;
 }
 
+.breakline {
+ border: none;
+ border-bottom: 6px dotted #643173;
+ width: 7.5%;
+}
+
+.Information--Title {
+ text-align: center;
+ color: #007991;
+ font-family: 'Open Sans', sans-serif;
+ font-family: 500;
+ font-size: 32px;
+ margin-top: 5%;
+}
+
 /* Projects Gallery */
 
 .ProjectGallery {
@@ -136,11 +151,16 @@ a {
  gap: 25px 50px;
 }
 
+.ProjectGallery--Sectional {
+ width: 100%;
+}
+
 .Card {
  width: 250px;
  background: none;
  border: none;
  border-radius: 15px;
+ margin: 25px 10px;
 }
 
 .Card:hover {
@@ -179,6 +199,14 @@ a {
  .Information--Job {
   font-size: 32px;
  }
+ .Information--Title {
+  font-size: 24px;
+ }
+ .breakline {
+  border-bottom: 6px dotted #643173;
+  width: 10%;
+ }
+
  .Information--Name {
   font-size: 24px;
  }
