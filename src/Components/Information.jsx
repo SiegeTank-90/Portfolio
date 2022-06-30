@@ -17,26 +17,33 @@ function Information() {
                     <span className='Quote--From'>-Ralph Bunche </span>
                 </p>
                 <div className='Information--Buttons-Row'>
-                    <button className='Information--Buttons-Row--Button'>
-                        {' '}
-                        <FontAwesomeIcon icon={faGithub} size='2x' />
-                        <p className='Information--Buttons-Row--Name'>Github</p>
-                    </button>
-                    <button className='Information--Buttons-Row--Button'>
-                        {' '}
-                        <FontAwesomeIcon icon={faLinkedin} size='2x' />
-                        <p className='Information--Buttons-Row--Name'>Linkedin</p>
-                    </button>
-                    <button className='Information--Buttons-Row--Button'>
-                        {' '}
-                        <FontAwesomeIcon icon={faFile} size='2x' />
-                        <p className='Information--Buttons-Row--Name'>Resume</p>
-                    </button>
+                    <a href="https://github.com/SiegeTank-90" target='_blank' rel='noreferrer'>
+
+                        <button className='Information--Buttons-Row--Button'>
+                            {' '}
+                            <FontAwesomeIcon icon={faGithub} size='2x' />
+                            <p className='Information--Buttons-Row--Name'>Github</p>
+                        </button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/carl-cline-733411a3/" target='_blank' rel='noreferrer'>
+                        <button className='Information--Buttons-Row--Button'>
+                            {' '}
+                            <FontAwesomeIcon icon={faLinkedin} size='2x' />
+                            <p className='Information--Buttons-Row--Name'>Linkedin</p>
+                        </button>
+                    </a>
+                    <a href="../resume/C.J.Cline_Resume.pdf" download>
+                        <button className='Information--Buttons-Row--Button'>
+                            {' '}
+                            <FontAwesomeIcon icon={faFile} size='2x' />
+                            <p className='Information--Buttons-Row--Name'>Resume</p>
+                        </button>
+                    </a>
                 </div>
                 <ProjectGallery />
             </div>
 
-        </div>
+        </div >
     )
 }
 

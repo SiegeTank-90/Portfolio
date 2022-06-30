@@ -19,12 +19,12 @@ const Projects = [
     {
         name: 'Web-Remote Demo',
         img: webRemote,
-        link: 'https://github.com/SiegeTank-90/web-remote2'
+        link: 'https://siegetank-90.github.io/web-remote2'
     },
     {
         name: 'Jobs Listings Search',
         img: jobSnapshot,
-        link: 'https://github.com/SiegeTank-90/jobFilter'
+        link: 'https://siegetank-90.github.io/jobFilter'
     }
 ]
 
