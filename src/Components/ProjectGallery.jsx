@@ -44,7 +44,7 @@ function ProjectGallery() {
         } else {
             DemoProjectArray.push(<Card title={element.name} image={element.img} link={element.link} />)
         }
-
+        return null
     })
 
 
