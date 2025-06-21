@@ -8,7 +8,7 @@ import ProjectGallery from './ProjectGallery';
 function Information() {
     return (
         <div className='Information'>
-            <div>
+            <>
                 <h2 className='Information--Name'> C.J. Cline </h2>
                 <h1 className='Information--Job'> Junior Front-End Developer </h1>
                 <p className='Information--Quote'>
@@ -32,19 +32,13 @@ function Information() {
                             <p className='Information--Buttons-Row--Name'>Linkedin</p>
                         </button>
                     </a>
-                    <a href="../resume/C.J.Cline_Resume.pdf" download>
-                        <button className='Information--Buttons-Row--Button'>
-                            {' '}
-                            <FontAwesomeIcon icon={faFile} size='2x' />
-                            <p className='Information--Buttons-Row--Name'>Resume</p>
-                        </button>
-                    </a>
+                    
                 </div>
                 <h2 className="Information--Title">Projects</h2>
 
                 <hr className="breakline" />
                 <ProjectGallery />
-            </div>
+            </>
 
         </div >
     )

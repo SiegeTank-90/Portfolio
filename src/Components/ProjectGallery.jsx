@@ -14,12 +14,6 @@ const Projects = [
 
     },
     {
-        name: 'Countries Database',
-        img: findaflag,
-        link: 'https://siegetank-90.github.io/findaflag/',
-        demo: false
-    },
-    {
         name: 'Mobile Web-Remote',
         img: webRemote,
         link: 'https://siegetank-90.github.io/web-remote2',
