@@ -10,7 +10,7 @@ function Information() {
         <div className='Information'>
             <>
                 <h2 className='Information--Name'> C.J. Cline </h2>
-                <h1 className='Information--Job'> Junior Front-End Developer </h1>
+                <h1 className='Information--Job'> Junior Developer </h1>
                 <p className='Information--Quote'>
                     "To make our way, we must have firm resolve, persistence, tenacity. We must
                     gear ourselves to work hard all the way. We can never let up."{' '}

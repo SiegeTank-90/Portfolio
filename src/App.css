@@ -1,241 +1,260 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,700&family=Oswald:wght@400;700&family=Pinyon+Script&display=swap');
+
 a {
- text-decoration: none;
+   text-decoration: none;
 }
 
-/* Background */
+
 
 .Background {
- position: absolute;
- z-index: -10;
- width: 100%;
- height: 100%;
- display: flex;
- background-color: #b3b5bb;
- justify-content: space-between;
- overflow: hidden;
+   position: absolute;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: space-between;
+   overflow: hidden;
+   background: #686c75;
+   background: linear-gradient(325deg, rgba(104, 108, 117, 1) 2%, rgba(186, 186, 212, 1) 32%, rgba(255, 255, 255, 1) 100%);
+   background-size: cover;
+   position: fixed;
 }
 
 .Background--Spacer {
- display: flex;
- flex-wrap: wrap;
- width: 500px;
- gap: 0;
+   display: flex;
+   flex-wrap: wrap;
+   width: 500px;
+   gap: 0;
 }
 
 .Background--BlueGear--image {
- width: 500px;
- margin-left: -250px;
- margin-right: 250px;
- animation: infinite-spinning 10s infinite linear;
+   width: 500px;
+   margin-left: -250px;
+   margin-right: 250px;
+   animation: infinite-spinning 10s infinite linear;
 }
 
 .Background--SmallGear--image {
- width: 250px;
- margin-right: 150px;
- margin-left: -150px;
- margin-top: -200px;
- animation: infinite-spinning-alt 8s infinite linear;
+   width: 250px;
+   margin-right: 150px;
+   margin-left: -150px;
+   margin-top: -200px;
+   animation: infinite-spinning-alt 8s infinite linear;
 }
 
 .Background--MainGear--image {
- min-width: 500px;
- margin-left: 250px;
- animation: infinite-spinning 10s infinite linear;
+   min-width: 500px;
+   margin-left: 250px;
+   animation: infinite-spinning 10s infinite linear;
 }
 
 @keyframes infinite-spinning {
- from {
-  transform: rotate(0deg);
- }
- to {
-  transform: rotate(360deg);
- }
+   from {
+      transform: rotate(0deg);
+   }
+
+   to {
+      transform: rotate(360deg);
+   }
 }
 
 @keyframes infinite-spinning-alt {
- from {
-  transform: rotate(360deg);
- }
- to {
-  transform: rotate(0deg);
- }
+   from {
+      transform: rotate(360deg);
+   }
+
+   to {
+      transform: rotate(0deg);
+   }
 }
 
 /* Information Section*/
 .Information {
- position: absolute;
- display: flex;
- margin-top: 10%;
- width: 100%;
- justify-content: center;
+   display: flex;
+   margin-top: 10%;
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
 }
 
 .Information--Name {
- color: #007991;
- font-family: 'Open Sans', sans-serif;
- font-family: 500;
- font-size: 48px;
- margin: 0;
+   color: #007991;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 500;
+   font-size: 48px;
+   margin: 0;
 }
+
+.Information--Align {
+   position: absolute;
+   display: flex;
+   margin-left: 33%;
+   margin-right: 33%;
+   align-items: center;
+}
+
 .Information--Job {
- font-family: 'Oswald', sans-serif;
- font-weight: 700;
- color: #643173;
- font-size: 48px;
- margin: 0;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 700;
+   color: #643173;
+   font-size: 48px;
+   margin: 0;
 }
 
 .Information--Quote {
- font-size: 24px;
- font-family: 'Open Sans', sans-serif;
- justify-content: center;
- font-weight: 400;
- margin: 0;
- max-width: 633px;
- color: rgba(0, 0, 0, 0.5);
+   font-size: 24px;
+   font-family: 'Open Sans', sans-serif;
+   justify-content: center;
+   font-weight: 400;
+   margin: 0;
+   max-width: 633px;
+   color: rgba(0, 0, 0, 0.5);
 }
 
 .Quote--From {
- font-family: 'Open Sans', sans-serif;
- font-style: italic;
- font-weight: 700;
+   font-family: 'Open Sans', sans-serif;
+   font-style: italic;
+   font-weight: 700;
 }
 
 .Information--Buttons-Row {
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
- margin: 10% 0;
- gap: 10px 25px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 10% 0;
+   gap: 10px 25px;
 }
 
 .Information--Buttons-Row--Button {
- display: flex;
- padding-left: 25px;
- font-family: 'Open Sans', sans-serif;
- letter-spacing: 1.25px;
- gap: 0 10px;
- align-items: center;
- border-radius: 5px;
- width: 140px;
- border: solid 1px #707070;
- background-color: #ffba49;
+   display: flex;
+   padding-left: 25px;
+   font-family: 'Open Sans', sans-serif;
+   letter-spacing: 1.25px;
+   gap: 0 10px;
+   align-items: center;
+   border-radius: 5px;
+   width: 140px;
+   border: solid 1px #707070;
+   background-color: #ffba49;
 }
 
 .Information--Buttons-Row--Button:hover {
- background-color: #643173;
- color: white;
+   background-color: #643173;
+   color: white;
 }
 
 .breakline {
- border: none;
- border-bottom: 6px dotted #643173;
- width: 7.5%;
+   border: none;
+   border-bottom: 6px dotted #643173;
+   width: 7.5%;
 }
 
 .Information--Title {
- text-align: center;
- color: #007991;
- font-family: 'Open Sans', sans-serif;
- font-family: 500;
- font-size: 32px;
- margin-top: 5%;
+   text-align: center;
+   color: #007991;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 500;
+   font-size: 32px;
+   margin-top: 5%;
 }
 
 /* Projects Gallery */
 
 .ProjectGallery {
- display: flex;
- flex-wrap: wrap;
- margin: 10% 0 20%;
- max-width: 600px;
- gap: 25px 50px;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 10% 0 20%;
+   max-width: 600px;
+   gap: 25px 50px;
 }
 
 .ProjectGallery--Sectional {
- width: 100%;
+   width: 100%;
 }
 
 .Card {
- width: 250px;
- background: none;
- border: none;
- border-radius: 15px;
- margin: 25px 10px;
+   width: 250px;
+   background: none;
+   border: none;
+   border-radius: 15px;
+   margin: 25px 10px;
 }
 
 .Card:hover {
- color: white;
- background-color: #643173;
- box-shadow: 1px 1px 25px black;
+   color: white;
+   background-color: #643173;
+   box-shadow: 1px 1px 25px black;
 }
 
 .Card--Image {
- width: 225px;
- border-radius: 15px;
+   width: 225px;
+   border-radius: 15px;
 }
 
 /* Footer */
 
 .Footer {
- position: fixed;
- top: 90%;
- width: 100%;
- display: flex;
- justify-content: space-around;
- background-color: #ffba49;
+   position: fixed;
+   top: 90%;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   background-color: #ffba49;
 }
 
 @media screen and (max-width: 750px) {
- .Information {
-  margin: 10% 0%;
-  text-align: center;
- }
+   .Information {
+      margin: 10% 0%;
+      text-align: center;
+   }
 
- .Information--Quote {
-  margin: 0 10%;
-  font-size: 16px;
-  color: black;
- }
- .Information--Job {
-  font-size: 32px;
- }
- .Information--Title {
-  font-size: 24px;
- }
- .breakline {
-  border-bottom: 6px dotted #643173;
-  width: 10%;
- }
+   .Information--Quote {
+      margin: 0 10%;
+      font-size: 16px;
+      color: black;
+   }
 
- .Information--Name {
-  font-size: 24px;
- }
+   .Information--Job {
+      font-size: 32px;
+   }
 
- .Background--BlueGear--image,
- .Background--SmallGear--image {
-  opacity: 0.25;
- }
+   .Information--Title {
+      font-size: 24px;
+   }
 
- .ProjectGallery {
-  justify-content: center;
- }
- .Footer--Phone,
- .Footer--Email,
- .Footer--Location {
-  margin: 0;
-  font-size: 12px;
- }
- .Card {
-    margin: 25px -50px;
- }
+   .breakline {
+      border-bottom: 6px dotted #643173;
+      width: 10%;
+   }
 
- .Footer {
-  top: 91%;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  font-size: 16px;
- }
+   .Information--Name {
+      font-size: 24px;
+   }
+
+   .Background--BlueGear--image,
+   .Background--SmallGear--image {
+      opacity: 0.25;
+   }
+
+   .ProjectGallery {
+      justify-content: center;
+   }
+
+   .Footer--Phone,
+   .Footer--Email,
+   .Footer--Location {
+      margin: 0;
+      font-size: 12px;
+   }
+
+   .Card {
+      margin: 25px -50px;
+   }
+
+   .Footer {
+      top: 91%;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      font-size: 16px;
+   }
 }

@@ -5,14 +5,16 @@ import Information from './Components/Information';
 import Footer from './Components/Footer';
 
 function App() {
- return (
-  <>
-   <Background />
+    return (
+        <>
+            <Background />
+            <div className='Information--Align'>
+                <Information />
+            </div>
 
-   <Information />
-   <Footer />
-  </>
- );
+            <Footer />
+        </>
+    );
 }
 
 export default App;
