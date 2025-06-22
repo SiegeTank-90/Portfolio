@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.15668429.css",
-    "main.js": "/Portfolio/static/js/main.38bbafa2.js",
+    "main.css": "/Portfolio/static/css/main.68436321.css",
+    "main.js": "/Portfolio/static/js/main.910ed7f2.js",
     "static/js/453.a5b25d5b.chunk.js": "/Portfolio/static/js/453.a5b25d5b.chunk.js",
     "static/media/Milestone1_Narraitve_SoftwareDesignAndEngneering.pdf": "/Portfolio/static/media/Milestone1_Narraitve_SoftwareDesignAndEngneering.b87682d17f6affe6b4a8.pdf",
     "static/media/CodeReview.png": "/Portfolio/static/media/CodeReview.1704cd3b4f8a15acacfc.png",
@@ -15,12 +15,12 @@
     "static/media/gear3.svg": "/Portfolio/static/media/gear3.6ab0711db42c2c342a8356b82cdcf2b1.svg",
     "static/media/gear2.svg": "/Portfolio/static/media/gear2.ad17e0d4875c76efaa8cd75f28c392ad.svg",
     "index.html": "/Portfolio/index.html",
-    "main.15668429.css.map": "/Portfolio/static/css/main.15668429.css.map",
-    "main.38bbafa2.js.map": "/Portfolio/static/js/main.38bbafa2.js.map",
+    "main.68436321.css.map": "/Portfolio/static/css/main.68436321.css.map",
+    "main.910ed7f2.js.map": "/Portfolio/static/js/main.910ed7f2.js.map",
     "453.a5b25d5b.chunk.js.map": "/Portfolio/static/js/453.a5b25d5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15668429.css",
-    "static/js/main.38bbafa2.js"
+    "static/css/main.68436321.css",
+    "static/js/main.910ed7f2.js"
   ]
 }
