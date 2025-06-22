@@ -39,25 +39,25 @@ function Information() {
                 <h2 className="Information--Title">Narratives</h2>
                 <hr className="breakline" />
                 <div className='Information--Buttons-Row'>
-                    <a href={milestone1} target='_blank' rel='noreferrer'>
+                    <a href={milestone1}>
                     <button className='Information--Buttons-Row--Button--Footer'>
                         <FontAwesomeIcon icon={faFile} size='2x' />
                         <p className='Information--Buttons-Row--Name'>Milestone 1</p>
                     </button>
                     </a>
-                    <a href={milestone2} target='_blank' rel='noreferrer'>
+                    <a href={milestone2}>
                     <button className='Information--Buttons-Row--Button--Footer'>
                         <FontAwesomeIcon icon={faFile} size='2x' />
                         <p className='Information--Buttons-Row--Name'>Milestone_2</p>
                     </button>
                     </a>
-                    <a href={milestone3} target='_blank' rel='noreferrer'>
+                    <a href={milestone3}>
                     <button className='Information--Buttons-Row--Button--Footer'>
                         <FontAwesomeIcon icon={faFile} size='2x' />
                         <p className='Information--Buttons-Row--Name'>Milestone 3</p>
                     </button>
                     </a>
-                    <a href={assessment} target='_blank' rel='noreferrer'>
+                    <a href={assessment}>
                     <button className='Information--Buttons-Row--Button--Footer'>
                         <FontAwesomeIcon icon={faFile} size='2x' />
                         <p className='Inforsmation--Buttons-Row--Name'>Assessment</p>

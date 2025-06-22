@@ -1,5 +1,4 @@
 import React from "react";
-import ecommerce from '../images/ecommerce.png'
 import codeReview from '../images/CodeReview.png'
 import gamefinder from '../images/GameFinder.png'
 import courseList from '../images/CourseList.png'
