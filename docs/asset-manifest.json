@@ -1,23 +1,27 @@
 {
   "files": {
     "main.css": "./static/css/main.15668429.css",
-    "main.js": "./static/js/main.c951421c.js",
+    "main.js": "./static/js/main.ba990ca6.js",
     "static/js/453.a5b25d5b.chunk.js": "./static/js/453.a5b25d5b.chunk.js",
+    "static/media/Milestone1_Narraitve_SoftwareDesignAndEngneering.pdf": "./static/media/Milestone1_Narraitve_SoftwareDesignAndEngneering.b87682d17f6affe6b4a8.pdf",
     "static/media/CodeReview.png": "./static/media/CodeReview.1704cd3b4f8a15acacfc.png",
     "static/media/CourseList.png": "./static/media/CourseList.0ab5a7b907ff1fbe9281.png",
+    "static/media/Milestone_3_Narrative_Databaes.pdf": "./static/media/Milestone_3_Narrative_Databaes.4eee440592d12d1c394a.pdf",
     "static/media/mobileGamefinder.png": "./static/media/mobileGamefinder.6910e5e7a474b7ea1fc6.png",
     "static/media/ecommerce.png": "./static/media/ecommerce.b111e0ad5f9bc7e497db.png",
+    "static/media/ProfessionalAssesment.pdf": "./static/media/ProfessionalAssesment.e9d7f69a63fe8248e96b.pdf",
+    "static/media/MileStone2_Narrative_AlgorithmsAndDataStructures.pdf": "./static/media/MileStone2_Narrative_AlgorithmsAndDataStructures.d8534ab0305bff0cd8ce.pdf",
     "static/media/GameFinder.png": "./static/media/GameFinder.f8fbeb2085453ad78286.png",
     "static/media/gear1.svg": "./static/media/gear1.ff1038baecec4f6a359e8d89db091df8.svg",
     "static/media/gear3.svg": "./static/media/gear3.6ab0711db42c2c342a8356b82cdcf2b1.svg",
     "static/media/gear2.svg": "./static/media/gear2.ad17e0d4875c76efaa8cd75f28c392ad.svg",
     "index.html": "./index.html",
     "main.15668429.css.map": "./static/css/main.15668429.css.map",
-    "main.c951421c.js.map": "./static/js/main.c951421c.js.map",
+    "main.ba990ca6.js.map": "./static/js/main.ba990ca6.js.map",
     "453.a5b25d5b.chunk.js.map": "./static/js/453.a5b25d5b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15668429.css",
-    "static/js/main.c951421c.js"
+    "static/js/main.ba990ca6.js"
   ]
 }
