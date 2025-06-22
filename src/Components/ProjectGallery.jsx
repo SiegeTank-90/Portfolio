@@ -3,37 +3,22 @@ import ecommerce from '../images/ecommerce.png'
 import codeReview from '../images/CodeReview.png'
 import gamefinder from '../images/GameFinder.png'
 import courseList from '../images/CourseList.png'
-import jobSnapshot from '../images/jobSnapshot.png'
-import webRemote from '../images/web-remote.png'
+import mobilegamefinder from '../images/mobileGamefinder.png'
 import Card from "./ProjectCard";
 
 const Projects = [
     {
-        name: 'E-Commerce Page',
-        img: ecommerce,
-        link: 'https://siegetank-90.github.io/eCommerceDemo/',
+        name: 'Original Binary Search Tree',
+        img: courseList,
+        link: 'https://github.com/SiegeTank-90/CS300H2988',
         demo: true
 
     },
     {
-        name: 'Mobile Web-Remote',
-        img: webRemote,
-        link: 'https://siegetank-90.github.io/web-remote2',
+        name: 'Mobile Web GameFinder',
+        img: mobilegamefinder,
+        link: 'https://github.com/SiegeTank-90/GamerEvents',
         demo: true
-    },
-    {
-        name: 'Jobs Listings Search',
-        img: jobSnapshot,
-        link: 'https://siegetank-90.github.io/jobFilter',
-        demo: true
-
-    }, 
-    {
-        name: 'CodeReview Mobile GameFinder',
-        img: codeReview,
-        link: 'https://www.youtube.com/watch?v=wLCd6GJ9m_4',
-        demo: false
-
     },
     {
         name: 'GameFinder Queue',
@@ -66,13 +51,20 @@ function ProjectGallery() {
     })
 
 
-
     return (<div className="ProjectGallery">
         <div className="ProjectGallery--Sectional" >
+            <h2 className="Information--Title">Code Review</h2>
+            <hr className="breakline" />
+            <Card title={'Code Review Mobile GameFinder'} image={codeReview} link={'https://www.youtube.com/watch?v=wLCd6GJ9m_4'} />
+        </div>
+
+        <div className="ProjectGallery--Sectional" >
+            <h2 className="Information--Title">Enhancements</h2>
+            <hr className="breakline" />
             {ProjectsArray}
         </div>
         <div className="ProjectGallery--Sectional">
-            <h3 className="Information--Title ">Demos</h3>
+            <h3 className="Information--Title ">Orignals</h3>
             <hr className="breakline" />
         </div>
         <div className="ProjectGallery--Sectional" >

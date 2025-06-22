@@ -12,7 +12,7 @@ function App() {
                 <Information />
             </div>
 
-            <Footer />
+            {/* <Footer /> Removed For Class Exercise will re-implment in professional*/}
         </>
     );
 }

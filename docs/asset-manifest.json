@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.e5972617.css",
-    "main.js": "./static/js/main.607d8622.js",
+    "main.css": "./static/css/main.15668429.css",
+    "main.js": "./static/js/main.c951421c.js",
     "static/js/453.a5b25d5b.chunk.js": "./static/js/453.a5b25d5b.chunk.js",
     "static/media/CodeReview.png": "./static/media/CodeReview.1704cd3b4f8a15acacfc.png",
     "static/media/CourseList.png": "./static/media/CourseList.0ab5a7b907ff1fbe9281.png",
+    "static/media/mobileGamefinder.png": "./static/media/mobileGamefinder.6910e5e7a474b7ea1fc6.png",
     "static/media/ecommerce.png": "./static/media/ecommerce.b111e0ad5f9bc7e497db.png",
-    "static/media/web-remote.png": "./static/media/web-remote.970034a2a9dafa9c79cd.png",
     "static/media/GameFinder.png": "./static/media/GameFinder.f8fbeb2085453ad78286.png",
-    "static/media/jobSnapshot.png": "./static/media/jobSnapshot.3ecff71adf034dd378aa.png",
     "static/media/gear1.svg": "./static/media/gear1.ff1038baecec4f6a359e8d89db091df8.svg",
     "static/media/gear3.svg": "./static/media/gear3.6ab0711db42c2c342a8356b82cdcf2b1.svg",
     "static/media/gear2.svg": "./static/media/gear2.ad17e0d4875c76efaa8cd75f28c392ad.svg",
     "index.html": "./index.html",
-    "main.e5972617.css.map": "./static/css/main.e5972617.css.map",
-    "main.607d8622.js.map": "./static/js/main.607d8622.js.map",
+    "main.15668429.css.map": "./static/css/main.15668429.css.map",
+    "main.c951421c.js.map": "./static/js/main.c951421c.js.map",
     "453.a5b25d5b.chunk.js.map": "./static/js/453.a5b25d5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5972617.css",
-    "static/js/main.607d8622.js"
+    "static/css/main.15668429.css",
+    "static/js/main.c951421c.js"
   ]
 }

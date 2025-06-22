@@ -142,6 +142,24 @@ a {
    color: white;
 }
 
+.Information--Buttons-Row--Button--Footer {
+   display: flex;
+   padding-left: 10px;
+   font-family: 'Open Sans', sans-serif;
+   letter-spacing: 1.25px;
+   gap: 0 10px;
+   align-items: center;
+   border-radius: 5px;
+   width: 140px;
+   border: solid 1px #707070;
+   background-color: #ffba49;
+}
+
+.Information--Buttons-Row--Button--Footer:hover {
+   background-color: #643173;
+   color: white;
+}
+
 .breakline {
    border: none;
    border-bottom: 6px dotted #643173;
