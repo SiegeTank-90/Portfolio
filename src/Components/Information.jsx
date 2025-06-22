@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import ProjectGallery from './ProjectGallery';
+import milestone1 from '../files/Milestone1_Narraitve_SoftwareDesignAndEngneering.pdf';
+import milestone2 from '../files/MileStone2_Narrative_AlgorithmsAndDataStructures.pdf';
+import milestone3 from '../files/Milestone_3_Narrative_Databaes.pdf';
+import assessment from '../files/ProfessionalAssesment.pdf';
 
 
 function Information() {
@@ -35,25 +39,25 @@ function Information() {
                 <h2 className="Information--Title">Narratives</h2>
                 <hr className="breakline" />
                 <div className='Information--Buttons-Row'>
-                    <a href="../../Public/Milestone1_Narraitve_SoftwareDesignAndEngneering.pdf" target='_blank' rel='noreferrer'>
+                    <a href={milestone1} target='_blank' rel='noreferrer'>
                     <button className='Information--Buttons-Row--Button--Footer'>
                         <FontAwesomeIcon icon={faFile} size='2x' />
                         <p className='Information--Buttons-Row--Name'>Milestone 1</p>
                     </button>
                     </a>
-                    <a href="../../Public/MileStone2_Narrative_AlgorithmsAndDataStructures.pdf" target='_blank' rel='noreferrer'>
+                    <a href={milestone2} target='_blank' rel='noreferrer'>
                     <button className='Information--Buttons-Row--Button--Footer'>
                         <FontAwesomeIcon icon={faFile} size='2x' />
                         <p className='Information--Buttons-Row--Name'>Milestone_2</p>
                     </button>
                     </a>
-                    <a href="../../Public/Milestone_3_Narrative_Databaes.pdf" target='_blank' rel='noreferrer'>
+                    <a href={milestone3} target='_blank' rel='noreferrer'>
                     <button className='Information--Buttons-Row--Button--Footer'>
                         <FontAwesomeIcon icon={faFile} size='2x' />
                         <p className='Information--Buttons-Row--Name'>Milestone 3</p>
                     </button>
                     </a>
-                    <a href="../../Public/ProfessionalAssesments.pdf" target='_blank' rel='noreferrer'>
+                    <a href={assessment} target='_blank' rel='noreferrer'>
                     <button className='Information--Buttons-Row--Button--Footer'>
                         <FontAwesomeIcon icon={faFile} size='2x' />
                         <p className='Inforsmation--Buttons-Row--Name'>Assessment</p>
