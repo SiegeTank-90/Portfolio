@@ -105,9 +105,28 @@ a {
    font-family: 'Open Sans', sans-serif;
    justify-content: center;
    font-weight: 400;
-   margin: 0;
+   margin-bottom: 5%;
    max-width: 633px;
    color: rgba(0, 0, 0, 0.5);
+}
+
+.Information--Subtext {
+    font-size: 16px;
+   font-family: 'Open Sans', sans-serif;
+   justify-content: center;
+   font-weight: 400;
+   margin-bottom: 5%;
+   max-width: 633px;
+   color: rgba(0, 0, 0, 0.8);
+}
+.Information--Subtext-title {
+    font-size: 16px;
+   font-family: 'Open Sans', sans-serif;
+   justify-content: center;
+   font-weight: 600;
+   margin-bottom: 5%;
+   max-width: 633px;
+   color: rgba(0, 0, 0, 0.8);
 }
 
 .Quote--From {

@@ -63,7 +63,7 @@ function ProjectGallery() {
             {ProjectsArray}
         </div>
         <div className="ProjectGallery--Sectional">
-            <h3 className="Information--Title ">Orignals</h3>
+            <h3 className="Information--Title ">Originals Artifact</h3>
             <hr className="breakline" />
         </div>
         <div className="ProjectGallery--Sectional" >
