@@ -39,25 +39,41 @@ function Information() {
                 <h2 className="Information--Title">Narratives</h2>
                 <hr className="breakline" />
                 <div className='Information--Buttons-Row'>
+<<<<<<< HEAD
                     <a href={milestone1}>
+=======
+                    <a href="/Milestone1_Narraitve_SoftwareDesignAndEngneering.pdf" target='_blank' rel='noreferrer'>
+>>>>>>> parent of a67419f (Broken Link Testing)
                     <button className='Information--Buttons-Row--Button--Footer'>
                         <FontAwesomeIcon icon={faFile} size='2x' />
                         <p className='Information--Buttons-Row--Name'>Milestone 1</p>
                     </button>
                     </a>
+<<<<<<< HEAD
                     <a href={milestone2}>
+=======
+                    <a href="/MileStone2_Narrative_AlgorithmsAndDataStructures.pdf" target='_blank' rel='noreferrer'>
+>>>>>>> parent of a67419f (Broken Link Testing)
                     <button className='Information--Buttons-Row--Button--Footer'>
                         <FontAwesomeIcon icon={faFile} size='2x' />
                         <p className='Information--Buttons-Row--Name'>Milestone_2</p>
                     </button>
                     </a>
+<<<<<<< HEAD
                     <a href={milestone3}>
+=======
+                    <a href="/Milestone_3_Narrative_Databaes.pdf" target='_blank' rel='noreferrer'>
+>>>>>>> parent of a67419f (Broken Link Testing)
                     <button className='Information--Buttons-Row--Button--Footer'>
                         <FontAwesomeIcon icon={faFile} size='2x' />
                         <p className='Information--Buttons-Row--Name'>Milestone 3</p>
                     </button>
                     </a>
+<<<<<<< HEAD
                     <a href={assessment}>
+=======
+                    <a href="/ProfessionalAssesments.pdf" target='_blank' rel='noreferrer'>
+>>>>>>> parent of a67419f (Broken Link Testing)
                     <button className='Information--Buttons-Row--Button--Footer'>
                         <FontAwesomeIcon icon={faFile} size='2x' />
                         <p className='Inforsmation--Buttons-Row--Name'>Assessment</p>
