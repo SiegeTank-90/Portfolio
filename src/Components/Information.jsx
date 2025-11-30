@@ -21,10 +21,9 @@ function Information() {
                     <span className='Quote--From'>-Ralph Bunche </span>
                 </p>
                 <hr className="breakline" />
-                <p className='Information--Subtext'>My defining trait is my resolve. I apply it to my fascination with how systems and people are forged together. I began my journey by learning UI/UX and front-end development through online courses, where I picked up React, HTML, CSS, JavaScript, and how to utilize a RESTful APIs. </p>
-                <p className="Information--Subtext">Knowing that becoming a developer would require a stronger foundation, I returned to college to study computer science. I understood this would show me another side of the landscape and move me closer to enterprise-level proficiency. During my studies, I reinforced my front-end knowledge and expanded into server-side rendering with Express, as well as working with both SQL and NoSQL databases. I also gained experience with tools like Git and Node.js.</p>
-                <p className="Information--Subtext">I used this time to deepen my understanding of industry standards, best practices, data structures, and algorithms.</p>
-                <p className="Information--Subtext">My greatest strength—and also my greatest weakness—is that I don’t quit. I stay resilient when faced with challenges.</p>
+                <p className='Information--Subtext'>My defining trait is my curiosity. I apply my fascination with how technology is built and investigate with how the user will interact with the program prioritizing thier needs. I began my journey by learning UI/UX and front-end development through online courses, where I picked up React, HTML, CSS, JavaScript, and how to utilize a RESTful APIs. </p>
+                <p className="Information--Subtext">Knowing that becoming a developer would require a strong foundation, I returned to college to study computer science. With the intent to reinforce my current knowledge and learn back-end development and professional toolsets </p>. 
+                <p className="Information--Subtext">I during my time in college I deepened my understanding of industry standards, best practices, data structures, and algorithms.</p>
                 <hr className="breakline" />
 
 
